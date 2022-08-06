@@ -1,17 +1,25 @@
 nav {
-    background-color: gray;
 
+    img{
+        height: 80px;
+       } 
+    background-color: rgb(58, 119, 141);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     ul {
         display: flex;
-        list-style-type: none;
-        justify-content: space-between;
-
+        list-style: none;
+       
         li {
             font-size: 30px;
-            margin: 30px;
+            margin: 20px;
             font-family: 'Roboto', sans-serif;
             cursor: pointer;
+            
+         
         }
+
 
     }
 
