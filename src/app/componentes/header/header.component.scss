@@ -1,0 +1,18 @@
+nav {
+    background-color: gray;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+
+        li {
+            font-size: 30px;
+            margin: 30px;
+            font-family: 'Roboto', sans-serif;
+            cursor: pointer;
+        }
+
+    }
+
+}
