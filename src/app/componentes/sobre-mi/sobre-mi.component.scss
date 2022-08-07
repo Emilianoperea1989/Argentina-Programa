@@ -2,9 +2,9 @@
 
 .banner{
     display: flex;
-    width: 100%;
-    
     background-color: rgb(135, 136, 136);
+    min-height: 100vh;
+    padding-top: 5%;
     h1{
         font-size: 50px;
         text-align: center;

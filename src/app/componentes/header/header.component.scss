@@ -1,34 +1,56 @@
 nav {
-    border-bottom: solid black ;
-    img{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid black;
+
+    img {
         height: 80px;
-       } 
+    }
+
     background-color: rgb(112, 128, 140);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    ul {
+
+    .about {
+
+        padding-left:auto;
         display: flex;
         list-style: none;
-       
+
+
         li {
             font-size: 30px;
-            margin: 20px;
+            margin: 10px;
             font-family: 'Roboto', sans-serif;
             cursor: pointer;
-            
-            img{
-                width: 60px;
-                height: 60px;
-                
-                
-            }
-         
-           
-        
         }
 
+    }
 
+}
+
+.redes {
+    display: flex;
+    list-style: none;
+
+    li {
+        margin: 5px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px
+    }
+
+    button {
+        font-size: 20px;
+        align-self: center;
+        height: 60px;
+        width: 120px;
+        background-color: rgb(105, 91, 179);
+        border-radius:10%;
     }
 
 }
