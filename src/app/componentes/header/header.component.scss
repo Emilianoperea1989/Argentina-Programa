@@ -1,9 +1,9 @@
 nav {
-
+    border-bottom: solid black ;
     img{
         height: 80px;
        } 
-    background-color: rgb(58, 119, 141);
+    background-color: rgb(112, 128, 140);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,15 @@ nav {
             font-family: 'Roboto', sans-serif;
             cursor: pointer;
             
+            img{
+                width: 60px;
+                height: 60px;
+                
+                
+            }
          
+           
+        
         }
 
 

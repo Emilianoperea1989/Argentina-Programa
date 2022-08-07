@@ -1,3 +1,23 @@
-h1{
-    font-size: 50px;
+
+
+.banner{
+    display: flex;
+    width: 100%;
+    
+    background-color: rgb(135, 136, 136);
+    h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    img{
+        height: 300px;
+        border: solid rgb(0, 0, 0);
+        border-radius: 100% ;
+    }
+    p{
+        font-size: 30px;
+        margin-top: 10%;
+        margin-left: 15px;
+        
+    }
 }
